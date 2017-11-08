@@ -50,6 +50,7 @@
     <Compile Include="CalculatorLogic\IsOddRule.cs" />
     <Compile Include="ContainerRegistrations.cs" />
     <Compile Include="Controller\Program.cs" />
+    <Compile Include="Controller\RunCalculator.cs" />
     <Compile Include="Model\Calculation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="View\IBanner.cs" />

@@ -1,4 +1,5 @@
 ﻿using CollatzCalculator.CalculatorLogic;
+using CollatzCalculator.Controller;
 using CollatzCalculator.View;
 using Ninject.Modules;
 
@@ -15,6 +16,9 @@ namespace CollatzCalculator
             Bind<IIsOddRule>().To<IsOddRule>();
             Bind<ICheckIsOdd>().To<CheckIsOdd>();
             Bind<IIsEvenCalculationRule>().To<IsEvenCalculationRule>();
+
+            // Controllers
+            Bind<IRunCalculator>().To<RunCalculator>();
         }
     }
 }
