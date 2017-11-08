@@ -1,4 +1,5 @@
-﻿using CollatzCalculator.View;
+﻿using CollatzCalculator.CalculatorLogic;
+using CollatzCalculator.View;
 using Ninject.Modules;
 
 namespace CollatzCalculator
@@ -7,7 +8,13 @@ namespace CollatzCalculator
     {
         public override void Load()
         {
+            // Views
             Bind<IBanner>().To<Banner>();
+
+            // Logic
+            Bind<IIsOddRule>().To<IsOddRule>();
+            Bind<ICheckIsOdd>().To<CheckIsOdd>();
+            Bind<IIsEvenCalculationRule>().To<IsEvenCalculationRule>();
         }
     }
 }

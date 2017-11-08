@@ -1,12 +1,11 @@
 ﻿using System.Reflection;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("CollatzCalculator")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("A program that takes a user's starting number and attempts to calculate the Collatz Conjecture steps taken to reach 1")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("CollatzCalculator")]
